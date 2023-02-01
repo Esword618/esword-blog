@@ -8,8 +8,8 @@
   enable = true
   [page.comment.valine]
     enable = true
-    appId = "7HwTRT0Q0Tfrat6ugrT6P67c-gzGzoHsz"
-    appKey = "mhTY1kuUmviCtQwkwOASfsfD"
+    appId = "iKXhf76qEnOEI3A57qmU4uIi-gzGzoHsz"
+    appKey = "Sz55JFck99nF0UDZ3pxU8g4x"
     # placeholder = "ヾﾉ≧∀≦)o~ 有事請留言！\n評論功能以郵件作為通知方式！\n如有必要請填寫正確郵箱哦！"
     placeholder = "ヾﾉ≧∀≦)o~ 有事请留言！\n评论功能以邮件作为通知方式！\n如有必要请填写正确邮箱哦！"
     avatar = "wavatar"
