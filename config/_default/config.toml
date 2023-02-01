@@ -3,8 +3,9 @@
 # See: https://gohugo.io/getting-started/configuration/
 # -------------------------------------------------------------------------------------
 
-title = "菠菜眾長"
+title = "Esword's Blog"
 baseURL = "http://localhost:1313"
+# 主题
 theme = "FixIt"
 defaultContentLanguage = "zh-cn"
 languageCode = "zh-CN"

@@ -1,6 +1,6 @@
 ---
 type: "offline"
-description: "離線 - 菠菜眾長"
+description: "Esword"
 keywords: 
   - PWA
   - offline

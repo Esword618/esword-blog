@@ -43,43 +43,45 @@
   weight = 4
   [main.params]
     icon = "fa-solid fa-users"
-[[main]]
-  identifier = "img"
-  parent = "about"
-  pre = ""
-  post = ""
-  name = "相册"
-  url = "https://img.lruihao.cn"
-  title = "COS Album"
-  weight = 5
-  [main.params]
-    icon = "fa-solid fa-photo-video"
-[[main]]
-  identifier = "guestbook"
-  pre = ""
-  post = ""
-  name = "留言"
-  url = "/guestbook/"
-  title = ""
-  weight = 6
-  [main.params]
-    icon = "fa-solid fa-comments"
+# [[main]]
+#   identifier = "img"
+#   parent = "about"
+#   pre = ""
+#   post = ""
+#   name = "相册"
+#   url = "https://img.lruihao.cn"
+#   title = "COS Album"
+#   weight = 5
+#   [main.params]
+#     icon = "fa-solid fa-photo-video"
+# [[main]]
+#   identifier = "guestbook"
+#   pre = ""
+#   post = ""
+#   name = "留言"
+#   url = "/guestbook/"
+#   title = ""
+#   weight = 6
+#   [main.params]
+#     icon = "fa-solid fa-comments"
 [[main]]
   identifier = "about"
   pre = ""
   post = ""
-  name = "關於"
+  name = "关于"
   url = "/about/"
   title = ""
   weight = 7
   [main.params]
     icon = "fa-solid fa-user-tie"
+
+# github链接展示
 [[main]]
   identifier = "github"
   pre = "<i class='fa-brands fa-github fa-fw' aria-hidden='true'></i>"
   post = ""
   name = ""
-  url = "https://github.com/Lruihao/hugo-blog"
+  url = "https://github.com/Esword618"
   title = "GitHub"
   weight = ""
   [main.params]

@@ -6,9 +6,9 @@
 # FixIt CHANGED | 0.2.0 FixIt theme version
 version = "0.2.X"
 # site description
-description = "Lruihao's Note 李瑞豪的博客：探索、分享、记录自己在工作生活学习到一些东西。人知道得越多，就就会发现无知的越多。有更广袤世界可以探索，真是莫大的快乐啊！"
+description = "Esword's Blog 小姜同学的的博客：探索、分享、记录自己在工作生活学习到一些东西。人知道得越多，就就会发现无知的越多。有更广袤世界可以探索，真是莫大的快乐啊！"
 # site keywords
-keywords = ["李瑞豪", "李瑞豪的博客", "菠菜眾長", "博採眾長", "Lruihao", "Cell", "Hugo Blog"]
+keywords = ["Esword", "小姜同学的博客", "爬虫", "python", "go", "逆向", "Js逆向"]
 # site default theme ("light", "dark", "auto")
 defaultTheme = "auto"
 # public git repo url only then enableGitInfo is true
@@ -31,7 +31,7 @@ disableThemeInject = false
 # FixIt NEW | 0.2.0 App icon config
 [app]
   # optional site title override for the app when added to an iOS home screen or Android launcher
-  title = "菠菜眾長"
+  title = "Esword"
   # whether to omit favicon resource links
   noFavicon = false
   # modern SVG favicon to use in place of older style .png and .ico files
@@ -78,7 +78,7 @@ disableThemeInject = false
     # URL of the LOGO
     logo = "/logo.png"
     # title name
-    name = "菠菜众长"
+    name = "Esword"
     # you can add extra information before the name (HTML format is supported), such as icons
     pre = ""
     # you can add extra information after the name (HTML format is supported), such as icons
@@ -88,9 +88,9 @@ disableThemeInject = false
   # FixIt NEW | 0.2.12 Header subtitle config
   [header.subtitle]
     # subtitle name
-    name = "李瑞豪的博客"
+    name = "|小姜同学的博客"
     # whether to use typeit animation for subtitle name
-    typeit = false
+    typeit = true
 
 # Footer config
 [footer]
@@ -105,7 +105,7 @@ disableThemeInject = false
   # FixIt NEW | 0.2.0 whether to show the author
   author = true
   # Site creation year
-  since = 2018
+  since = 2022
   # FixIt NEW | 0.2.12 Public network security only in China (HTML format is supported)
   gov = '<a rel="external nofollow noopener noreferrer" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=43030402000254" target="_blank">湘公网安备 43030402000254 号</a>'
   # ICP info only in China (HTML format is supported)
@@ -173,7 +173,7 @@ disableThemeInject = false
     # FixIt 0.2.17 | NEW identifier of avatar menu link
     avatarMenu = "about"
     # FixIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
-    title = "Lruihao's Note"
+    title = "Esword's Note"
     # subtitle shown in home page
     subtitle = "不怕萬人阻擋，只怕自己投降"
     # whether to use typeit animation for subtitle
@@ -190,20 +190,20 @@ disableThemeInject = false
 
 # Social config about the author
 [social]
-  GitHub = "Lruihao"
-  Weibo = "liahao"
-  Email = "1024@lruihao.cn"
+  GitHub = "Esword618"
+  Weibo = ""
+  Email = "jyj349559953@gmail.com"
   RSS = true
   Stackoverflow = ""
   Zhihu = ""
   Douban = ""
   Gitea = ""
-  Bilibili = ""
+  Bilibili = "481314897"
   BuyMeaCoffee = ""
   Linktree = ""
   QQ = ""
   QQGroup = ""
-  CSDN = ""
+  CSDN = "weixin_45886778"
 
 # FixIt CHANGED | 0.2.0 Page config
 [page]
@@ -312,8 +312,10 @@ disableThemeInject = false
     position = "before"
     comment = "Buy me a coffee~"
     [page.reward.ways]
-      wechatpay = "/images/wechatpay.gif"
-      alipay = "/images/alipay.gif"
+      wechatpay = "/images/wechatpay.jpg"
+      alipay = "/images/alipay.jpg"
+      # wechatpay = "/images/wechatpay.gif"
+      # alipay = "/images/alipay.gif"
       # paypal = "/images/paypal.png"
       # bitcoin = "/images/bitcoin.png"
   # FixIt CHANGED | 0.2.0 social share links in post page
@@ -341,7 +343,7 @@ disableThemeInject = false
     images = []
     # Publisher info
     [page.seo.publisher]
-      name = "Lruihao"
+      name = "Esword"
       logoUrl = "/images/avatar.jpg"
 
 # FixIt NEW | 0.2.5 TypeIt config
@@ -371,7 +373,7 @@ disableThemeInject = false
 [watermark]
   enable = true
   # watermark's text (HTML format is supported)
-  content = '<img style="height: 0.85rem;" src="/logo.png" alt="logo" /> 李瑞豪'
+  content = '<img style="height: 0.85rem;" src="/logo.png" alt="logo" /> Esword'
   # watermark's transparency
   opacity = 0.0125
   # parent of watermark's container
@@ -445,8 +447,8 @@ disableThemeInject = false
 # FixIt NEW | 0.2.14 GitHub banner in the top-right or top-left corner
 [githubCorner]
   enable = true
-  permalink = "https://github.com/Lruihao/hugo-blog"
-  title = "在 GitHub 上查看程式碼，訂閱請點 Watch"
+  permalink = "https://github.com/Esword618"
+  title = "Esword's Github"
   position = "right" # ["left", "right"]
 
 # FixIt NEW | 0.2.14 Gravatar config
